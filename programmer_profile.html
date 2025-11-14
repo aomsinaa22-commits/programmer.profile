@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Developer Portfolio Card (Light)</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <style>
+    body {
+      background: #eee7aa;
+      color: #333;
+    }
+    .card {
+      background: #dfe9a9;
+      border-radius: 12px;
+    }
+    .skill-badge {
+      background: #94ad7d;
+      color: #1b0101;
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 0.85rem;
+    }
+    .circle-image{
+       width: 300px;
+       height: 300px;
+       border-radius: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container py-5">
+    <h2 class="text-center mb-4"></h2>
+
+    <div class="card shadow p-4">
+
+      <div class="row g-4 align-items-center">
+
+        <!-- Profile image -->
+        <div class="col-12 col-md-4 text-center">
+          <img class="circle-image" src="เฟ่.jpg" 
+               class="rounded-circle border border-3 border-light shadow-sm"
+               alt="Profile">
+        </div>
+
+        <!-- Info section -->
+        <div class="col-12 col-md-8">
+
+          <h2>ค่าเฟ่ในวิทยาลัยเทคนิค</h2>
+          <p class="text-muted mt-2"> ค่าเฟ่ | เทคนิค</p>
+
+          <p>
+            👋 สวัสดีค่ะ ยินดีที่ให้บริการเกี่ยวกับคาเฟ่ยาโย่  
+            มีชาเขียว กาแฟ เบเกอรี่, ที่นั่งระบายสี.นั่งชิล, เบียร์
+          </p>
+
+          <!-- Skills -->
+          <h5 class="mt-3 mb-2">เมนู</h5>
+          <div class="d-flex flex-wrap gap-2 mb-3">
+            <span class="skill-badge">มอคค่า</span>
+            <span class="skill-badge">ชาไทย</span>
+            <span class="skill-badge">ชาเขียว</span>
+            <span class="skill-badge">เค้ก</span>
+            <span class="skill-badge">ข้าว</span>
+          </div>
+
+          <!-- Buttons -->
+          <div class="d-flex gap-2">
+            <a href="#" class="btn btn-primary">View Projects</a>
+            <a href="#" class="btn btn-outline-secondary">GitHu/a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
